@@ -17,8 +17,8 @@ Bob is a popular macOS translation and OCR application. This skill helps you dev
 #### Method 1: Direct Installation (Recommended)
 
 ```bash
-/plugin marketplace add bigbigDreamer/bob-plugin-creator-skill
-/plugin install bob-plugin-creator@bigbigDreamer/bob-plugin-creator-skill
+/plugin marketplace add https://github.com/bigbigDreamer/bob-plugin-creator-skill
+/plugin install bob-plugin-creator@bob-plugin-creator-marketplace
 ```
 
 #### Method 2: Manual Clone
@@ -95,8 +95,8 @@ Bob 是一款 macOS 平台上流行的翻译和 OCR 应用。这个 skill 帮助
 #### 方法 1：直接安装（推荐）
 
 ```bash
-/plugin marketplace add bigbigDreamer/bob-plugin-creator-skill
-/plugin install bob-plugin-creator@bigbigDreamer/bob-plugin-creator-skill
+/plugin marketplace add https://github.com/bigbigDreamer/bob-plugin-creator-skill
+/plugin install bob-plugin-creator@bob-plugin-creator-marketplace
 ```
 
 #### 方法 2：手动克隆
