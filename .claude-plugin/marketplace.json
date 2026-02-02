@@ -12,11 +12,11 @@
     {
       "name": "bob-plugin-creator",
       "description": "Create/update Bob (bobtranslate.com) plugins (translate/ocr/tts)",
-      "source": "./",
-      "strict": false,
-      "skills": [
-        "./"
-      ]
+      "source": {
+        "type": "github",
+        "repo": "bigbigDreamer/bob-plugin-creator-skill"
+      },
+      "strict": false
     }
   ]
 }
