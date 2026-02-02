@@ -1,20 +1,17 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "bob-plugin-creator-marketplace",
   "owner": {
-    "name": "bigbigDreamer",
-    "url": "https://github.com/bigbigDreamer"
+    "name": "bigbigDreamer"
   },
-  "metadata": {
-    "description": "Create and update Bob (bobtranslate.com) plugins for translate/OCR/TTS with comprehensive templates and API references",
-    "version": "1.0.0"
-  },
+  "description": "Bob plugin development skill marketplace",
+  "version": "1.0.0",
   "plugins": [
     {
       "name": "bob-plugin-creator",
-      "description": "Create/update Bob (bobtranslate.com) plugins (translate/ocr/tts): info.json, main.js, options, API usage, packaging.",
-      "source": {
-        "url": "https://github.com/bigbigDreamer/bob-plugin-creator-skill"
-      }
+      "source": ".",
+      "description": "Create/update Bob (bobtranslate.com) plugins (translate/ocr/tts)",
+      "version": "1.0.0"
     }
   ]
 }
