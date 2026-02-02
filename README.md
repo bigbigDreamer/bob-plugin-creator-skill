@@ -40,17 +40,18 @@ After installation, simply ask Claude Code to help you create or modify Bob plug
 
 ```
 bob-plugin-creator-skill/
-├── SKILL.md                    # Main skill definition
+├── SKILL.md                           # Main skill definition
+├── bob-plugin-creator-skill.skill     # Packaged skill file
 ├── references/
-│   ├── quickstart.md          # Quick start guide
-│   ├── api.md                 # Bob API reference
-│   ├── objects.md             # Data structures
-│   └── language-codes.md      # Language code mapping
+│   ├── quickstart.md                  # Quick start guide
+│   ├── api.md                         # Bob API reference
+│   ├── objects.md                     # Data structures
+│   └── language-codes.md              # Language code mapping
 └── assets/
     └── templates/
-        ├── translate/         # Translation plugin template
-        ├── ocr/              # OCR plugin template
-        └── tts/              # TTS plugin template
+        ├── translate/                 # Translation plugin template
+        ├── ocr/                       # OCR plugin template
+        └── tts/                       # TTS plugin template
 ```
 
 ### Contributing
@@ -107,17 +108,18 @@ npx skills add https://github.com/bigbigDreamer/bob-plugin-creator-skill
 
 ```
 bob-plugin-creator-skill/
-├── SKILL.md                    # 主技能定义文件
+├── SKILL.md                           # 主技能定义文件
+├── bob-plugin-creator-skill.skill     # 打包后的技能文件
 ├── references/
-│   ├── quickstart.md          # 快速入门指南
-│   ├── api.md                 # Bob API 参考
-│   ├── objects.md             # 数据结构说明
-│   └── language-codes.md      # 语言代码映射
+│   ├── quickstart.md                  # 快速入门指南
+│   ├── api.md                         # Bob API 参考
+│   ├── objects.md                     # 数据结构说明
+│   └── language-codes.md              # 语言代码映射
 └── assets/
     └── templates/
-        ├── translate/         # 翻译插件模板
-        ├── ocr/              # OCR 插件模板
-        └── tts/              # TTS 插件模板
+        ├── translate/                 # 翻译插件模板
+        ├── ocr/                       # OCR 插件模板
+        └── tts/                       # TTS 插件模板
 ```
 
 ### 贡献
