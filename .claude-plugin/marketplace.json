@@ -1,17 +1,22 @@
 {
-  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "bob-plugin-creator-marketplace",
   "owner": {
-    "name": "bigbigDreamer"
+    "name": "bigbigDreamer",
+    "email": "bigbigdreamer@example.com"
   },
-  "description": "Bob plugin development skill marketplace",
-  "version": "1.0.0",
+  "metadata": {
+    "description": "Bob plugin development skill marketplace",
+    "version": "1.0.0"
+  },
   "plugins": [
     {
       "name": "bob-plugin-creator",
-      "source": ".",
       "description": "Create/update Bob (bobtranslate.com) plugins (translate/ocr/tts)",
-      "version": "1.0.0"
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./"
+      ]
     }
   ]
 }
