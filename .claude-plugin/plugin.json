@@ -1,8 +1,0 @@
-{
-  "name": "bob-plugin-creator",
-  "version": "1.0.0",
-  "description": "Create/update Bob (bobtranslate.com) plugins (translate/ocr/tts)",
-  "author": {
-    "name": "bigbigDreamer"
-  }
-}
