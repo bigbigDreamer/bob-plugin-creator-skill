@@ -29,13 +29,6 @@ git clone https://github.com/bigbigDreamer/bob-plugin-creator-skill.git
 # Then add the directory to your Claude Code skills path
 ```
 
-#### Method 3: GitHub Marketplace
-
-```bash
-/plugin marketplace add https://github.com/bigbigDreamer/bob-plugin-creator-skill
-/plugin install bob-plugin-creator@bob-plugin-creator-marketplace
-```
-
 ### Features
 
 - ✨ **Complete Templates**: Ready-to-use templates for translate/OCR/TTS plugins
@@ -112,14 +105,6 @@ Bob 是一款 macOS 平台上流行的翻译和 OCR 应用。这个 skill 帮助
 ```bash
 git clone https://github.com/bigbigDreamer/bob-plugin-creator-skill.git
 # 然后将目录添加到你的 Claude Code skills 路径
-```
-
-#### 方法 3：GitHub Marketplace
-
-```bash
-/plugin marketplace add https://github.com/bigbigDreamer/bob-plugin-creator-skill
-/plugin install bob-plugin-creator@bob-plugin-creator-marketplace
-```
 ```
 
 ### 功能特性
