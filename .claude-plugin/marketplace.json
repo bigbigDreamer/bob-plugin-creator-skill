@@ -1,25 +1,20 @@
 {
+  "name": "bob-plugin-creator-marketplace",
   "owner": {
     "name": "bigbigDreamer",
     "url": "https://github.com/bigbigDreamer"
   },
   "metadata": {
-    "name": "Bob Plugin Creator",
     "description": "Create and update Bob (bobtranslate.com) plugins for translate/OCR/TTS with comprehensive templates and API references",
-    "version": "1.0.0",
-    "homepage": "https://github.com/bigbigDreamer/bob-plugin-creator-skill"
+    "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "bob-plugin-creator",
-      "displayName": "Bob Plugin Creator",
       "description": "Create/update Bob (bobtranslate.com) plugins (translate/ocr/tts): info.json, main.js, options, API usage, packaging.",
       "source": {
-        "type": "github",
-        "repository": "bigbigDreamer/bob-plugin-creator-skill"
-      },
-      "categories": ["development", "tools"],
-      "tags": ["bob", "plugin", "translation", "ocr", "tts", "macos"]
+        "url": "https://github.com/bigbigDreamer/bob-plugin-creator-skill"
+      }
     }
   ]
 }
