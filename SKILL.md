@@ -1,5 +1,5 @@
 ---
-name: bob-plugin-creator
+name: bob-plugin-creator-skill
 description: Create/update Bob (bobtranslate.com) plugins (translate/ocr/tts): info.json, main.js, options, API usage, packaging.
 ---
 
