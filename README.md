@@ -14,19 +14,8 @@ Bob is a popular macOS translation and OCR application. This skill helps you dev
 
 ### Installation
 
-#### Method 1: Download .skill File (Recommended)
-
-1. Download `bob-plugin-creator-skill.skill` from [Releases](https://github.com/bigbigDreamer/bob-plugin-creator-skill/releases)
-2. In Claude Code, run:
-   ```bash
-   /skill install /path/to/bob-plugin-creator-skill.skill
-   ```
-
-#### Method 2: Git Clone
-
 ```bash
-git clone https://github.com/bigbigDreamer/bob-plugin-creator-skill.git
-# Then add the directory to your Claude Code skills path
+npx skills add https://github.com/bigbigDreamer/bob-plugin-creator-skill
 ```
 
 ### Features
@@ -92,19 +81,8 @@ Bob 是一款 macOS 平台上流行的翻译和 OCR 应用。这个 skill 帮助
 
 ### 安装方法
 
-#### 方法 1：下载 .skill 文件（推荐）
-
-1. 从 [Releases](https://github.com/bigbigDreamer/bob-plugin-creator-skill/releases) 下载 `bob-plugin-creator-skill.skill`
-2. 在 Claude Code 中运行：
-   ```bash
-   /skill install /path/to/bob-plugin-creator-skill.skill
-   ```
-
-#### 方法 2：Git 克隆
-
 ```bash
-git clone https://github.com/bigbigDreamer/bob-plugin-creator-skill.git
-# 然后将目录添加到你的 Claude Code skills 路径
+npx skills add https://github.com/bigbigDreamer/bob-plugin-creator-skill
 ```
 
 ### 功能特性
