@@ -1,0 +1,31 @@
+{
+  "identifier": "com.yourname.bob.translate.demo",
+  "version": "0.1.0",
+  "category": "translate",
+  "name": "Demo Translate",
+  "summary": "Demo translate plugin.",
+  "author": "Your Name",
+  "homepage": "",
+  "appcast": "",
+  "minBobVersion": "1.8.0",
+  "options": [
+    {
+      "identifier": "apiKey",
+      "type": "text",
+      "title": "API Key",
+      "defaultValue": "",
+      "desc": "Your service API key."
+    },
+    {
+      "identifier": "model",
+      "type": "menu",
+      "title": "Model",
+      "defaultValue": "default",
+      "menuValues": [
+        { "title": "Default", "value": "default" },
+        { "title": "Fast", "value": "fast" }
+      ],
+      "desc": "Select model."
+    }
+  ]
+}
